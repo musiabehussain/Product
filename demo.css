@@ -1,0 +1,44 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+html, body {
+	font-size: 16px;
+}
+.remove-chat{
+	background-color:rgba(0, 0, 255, 0.815);
+	border: none;
+	border-radius: 50%;
+	padding: 4px 10px;
+	color: black;
+	position:absolute;
+		border-radius: 50%;
+	
+}
+.remove-chat:hover{
+	background-color:blue;
+	border: none;
+	border-radius: 50%;
+		padding: 4px 10px;
+	color: black;
+	position:absolute;
+	transform: rotate(-300deg);
+}
+section#demo {
+	background: gray;
+    position: relative;
+    padding: 0;
+    min-height: 100vh;
+    transition: height 9999s;
+}
+.vertical-align {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	width: 100%;
+}
+.card {
+	background: rgba(0, 0, 255, 0.377);
+    box-shadow: 13px 13px 28px 2px rgba(0, 0, 0, 0.035);
+    padding: 7px 15px;
+}
